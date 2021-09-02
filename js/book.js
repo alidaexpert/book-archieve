@@ -16,8 +16,7 @@ const searchBook = async() => {
             errorHandle("Type a valid keyword")
         } else {
             try {
-                errorDiv.style.display = 'none'
-                const url = `http://openlibrary.org/search.json?q=${searchText}`
+                const url = `https://openlibrary.org/search.json?q=${searchText}`
                 const res = await fetch(url)
                 const data = await res.json()
                 displayBookDetails(data.docs)
