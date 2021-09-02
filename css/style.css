@@ -1,3 +1,40 @@
-*{
+/* root  */
+
+* {
     font-family: 'Poppins', sans-serif;
+}
+
+
+/* body area */
+
+body {
+    background-image: url(/images/photo-1507842217343-583bb7270b66.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.black {
+    background-color: black;
+}
+
+
+/* card design */
+
+.fs {
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.text-brown {
+    color: rgb(255, 236, 236);
+}
+
+.bg-light-yellow {
+    background-color: #0984e3;
+}
+
+.border-blue {
+    border: 2px solid rgba(255, 220, 62, 0.685);
 }
